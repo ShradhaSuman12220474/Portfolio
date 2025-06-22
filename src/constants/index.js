@@ -19,11 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  skillsenseAi,
+  crypto,
   tripguide,
   threejs,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -46,17 +47,17 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -72,10 +73,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -198,16 +199,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SkillSenseAI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to see the current trends of the job and helps then in creating a AI based cv and to enhance their knowledge they can take mock test based on their fileds.",
     tags: [
       {
-        name: "react",
+        name: "Next js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Postgre SQL",
         color: "green-text-gradient",
       },
       {
@@ -215,28 +216,28 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: skillsenseAi,
+    source_code_link: "https://github.com/ShradhaSuman12220474/skillsenseAI",
   },
   {
-    name: "Job IT",
+    name: "CryptoCurrency Tracker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to check the realtime pricing of the coins and their trends in the past on the charts.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: crypto,
     source_code_link: "https://github.com/",
   },
   {
