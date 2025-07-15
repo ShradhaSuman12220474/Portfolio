@@ -21,8 +21,8 @@ import {
   shopify,
   skillsenseAi,
   crypto,
-  tripguide,
   threejs,
+  chatty
 } from "../assets";
 
 
@@ -241,24 +241,24 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Chatty",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Chatty is a real-time web chat app that lets users seamlessly connect and exchange messages in a simple, intuitive interface.",
     tags: [
       {
-        name: "nextjs",
+        name: "React js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Socket IO",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Node js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: chatty,
     source_code_link: "https://github.com/",
   },
 ];

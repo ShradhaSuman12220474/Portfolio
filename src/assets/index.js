@@ -28,7 +28,8 @@ import tesla from "./company/tesla.png";
 
 import skillsenseAi from "./skillsenseAi.png";
 import crypto from "./crypto.png";
-import tripguide from "./tripguide.png";
+
+import chatty from "./tech/chatty.png";
 
 export {
   logo,
@@ -58,5 +59,5 @@ export {
   tesla,
   skillsenseAi,
   crypto,
-  tripguide,
+  chatty,
 };
